@@ -1,0 +1,13 @@
+{
+  "rows": 48, "cols": 64, "steps": 120, "dt": 1.0,
+  "dx": 0.5, "dy": 0.5, "rho_cp": 1200.0, "conductivity": 12.0,
+  "initial_temp": 24.0, "ambient": 22.0, "air_temp": 18.0,
+  "idle_power": 80.0, "max_power": 350.0, "cell_volume": 2.0,
+  "cooling": 18.0, "base_utilization": 0.45,
+  "pattern": "steady", "amplitude": 0.25, "period": 60,
+  "seed": 7, "hotspot_threshold": 27.0,
+  "region": {"row": 18, "col": 24, "height": 10, "width": 12},
+  "spike_start": 40, "spike_utilization": 0.95,
+  "failure_start": 70, "failure_factor": 0.15,
+  "events": [], "solver": "cpu", "threads": 4, "block_size": 256
+}

@@ -1,0 +1,8 @@
+build/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+*.pyc
+data/scenarios/*.json
+data/benchmark_results/*.csv
+
